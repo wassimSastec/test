@@ -1,0 +1,64 @@
+curl 'https://builder.io/api/v1/fiddle' \
+  -H 'authority: builder.io' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) figma-linux/0.7.4 Chrome/89.0.4389.90 Electron/12.0.2 Safari/537.36' \
+  -H 'content-type: application/json' \
+  -H 'accept: */*' \
+  -H 'origin: null' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'accept-language: fr' \
+  --data-raw $'{"data":{"blocks":[{"@type":"@builder.io/sdk:Element","id":"builder-i7vu2p48fds","responsiveStyles":{"large":{"display":"flex","flexDirection":"row","maxWidth":"1178px","justifyContent":"flex-start","alignItems":"flex-start","paddingTop":"62px","paddingBottom":"62px","paddingRight":"84px","paddingLeft":"84px","backgroundColor":"rgba(255, 255, 255, 1)"}},"layerName":"","meta":{"figmaLayerId":"46:3"},"component":{"name":"input"},"children":[{"@type":"@builder.io/sdk:Element","id":"builder-l7q1p62801","responsiveStyles":{"large":{"maxWidth":"349px","color":"rgba(0, 0, 0, 1)","fontSize":"48px","letterSpacing":"0%","textAlign":"center","fontFamily":"Roboto, sans-serif"}},"layerName":"","meta":{"figmaLayerId":"46:1"},"component":{"name":"Text","options":{"text":"<span>Enter your email</span>"}}}]}]}}' \
+  --compressed
+  => input + span
+
+  curl 'https://builder.io/api/v1/fiddle' \
+  -H 'authority: builder.io' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) figma-linux/0.7.4 Chrome/89.0.4389.90 Electron/12.0.2 Safari/537.36' \
+  -H 'content-type: application/json' \
+  -H 'accept: */*' \
+  -H 'origin: null' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'accept-language: fr' \
+  --data-raw $'{"data":{"blocks":[{"@type":"@builder.io/sdk:Element","id":"builder-i7vu2p48fds","responsiveStyles":{"large":{"display":"flex","flexDirection":"row","maxWidth":"1178px","justifyContent":"flex-start","alignItems":"flex-start","paddingTop":"62px","paddingBottom":"62px","paddingRight":"84px","paddingLeft":"84px","backgroundColor":"rgba(255, 255, 255, 1)"}},"layerName":"","meta":{"figmaLayerId":"46:3"},"children":[{"@type":"@builder.io/sdk:Element","id":"builder-l7q1p62801","responsiveStyles":{"large":{"maxWidth":"349px","color":"rgba(0, 0, 0, 1)","fontSize":"48px","letterSpacing":"0%","textAlign":"center","fontFamily":"Roboto, sans-serif"}},"layerName":"","meta":{"figmaLayerId":"46:1"},"component":{"name":"Text","options":{"placeholder":"Enter your email","text":"<input />"}}}]}]}}' \
+  --compressed
+
+
+  curl 'https://builder.io/api/v1/fiddle' \
+  -H 'authority: builder.io' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) figma-linux/0.7.4 Chrome/89.0.4389.90 Electron/12.0.2 Safari/537.36' \
+  -H 'content-type: application/json' \
+  -H 'accept: */*' \
+  -H 'origin: null' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'accept-language: fr' \
+  --data-raw $'{"data":{"blocks":[{"@type":"@builder.io/sdk:Element","id":"builder-i7vu2p48fds","responsiveStyles":{"large":{"display":"flex","flexDirection":"row","maxWidth":"1178px","justifyContent":"flex-start","alignItems":"flex-start","paddingTop":"62px","paddingBottom":"62px","paddingRight":"84px","paddingLeft":"84px","backgroundColor":"rgba(255, 255, 255, 1)"}},"layerName":"","meta":{"figmaLayerId":"46:3"},"children":[{"@type":"@builder.io/sdk:Element","id":"builder-l7q1p62801","responsiveStyles":{"large":{"maxWidth":"349px","color":"rgba(0, 0, 0, 1)","fontSize":"48px","letterSpacing":"0%","textAlign":"center","fontFamily":"Roboto, sans-serif"}},"layerName":"","meta":{"figmaLayerId":"46:1"},"component":{"name":"Text","options":{"text":"<input placeholder='Enter your email' />"}}}]}]}}' \
+  --compressed
+
+
+  curl 'https://builder.io/api/v1/fiddle' \
+  -H 'authority: builder.io' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) figma-linux/0.7.4 Chrome/89.0.4389.90 Electron/12.0.2 Safari/537.36' \
+  -H 'content-type: application/json' \
+  -H 'accept: */*' \
+  -H 'origin: null' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'accept-language: fr' \
+  --data-raw $'{"data":{"blocks":[{"@type":"@builder.io/sdk:Element","id":"builder-i7vu2p48fds","responsiveStyles":{"large":{"display":"flex","flexDirection":"row","maxWidth":"1178px","justifyContent":"flex-start","alignItems":"flex-start","paddingTop":"62px","paddingBottom":"62px","paddingRight":"84px","paddingLeft":"84px","backgroundColor":"rgba(255, 255, 255, 1)"}},"layerName":"","meta":{"figmaLayerId":"46:3"},"component":{"name":"input","options":{"placeholder":"Enter your email"}},"children":[{"@type":"@builder.io/sdk:Element","id":"builder-l7q1p62801","responsiveStyles":{"large":{"maxWidth":"349px","color":"rgba(0, 0, 0, 1)","fontSize":"48px","letterSpacing":"0%","textAlign":"center","fontFamily":"Roboto, sans-serif"}},"layerName":"","meta":{"figmaLayerId":"46:1"}}]}]}}' \
+  --compressed
+  => input +placeholder
+
+
+
+
+
+{"data":{"blocks":[{"@type":"@builder.io/sdk:Element","@version":2,"id":"builder-83d67d093b0a47a3b4b15dd46adc00bd","component":{"name":"Form:Input","options":{"type":"text","placeholder":"Hello there"}},"responsiveStyles":{"large":{"display":"flex","flexDirection":"column","alignItems":"stretch","position":"relative","marginTop":"20px","paddingTop":"10px","paddingBottom":"10px","paddingLeft":"10px","paddingRight":"10px","borderRadius":"3px","borderWidth":"1px","borderStyle":"solid","borderColor":"#ccc"}}}]}}
+
+
+  {"data":{"blocks":[{"@type":"@builder.io/sdk:Element","@version":2,"id":"builder-bdb34975ab994f9bbe0e2f374fb35d56","component":{"name":"Form:Form","options":{"sendSubmissionsTo":"email","sendSubmissionsToEmail":"your@email.com","sendWithJs":true,"name":"My form","contentType":"application/json","previewState":"unsubmitted","successMessage":[{"@type":"@builder.io/sdk:Element","@version":2,"id":"builder-98dfd962e08d40d28e850c3cac87e13c","component":{"name":"Text","options":{"text":"<span>Thanks!</span>"}},"responsiveStyles":{"large":{"marginTop":"10px"}}}],"validate":true,"errorMessage":[{"@type":"@builder.io/sdk:Element","@version":2,"bindings":{"component.options.text":"state.formErrorMessage || block.component.options.text"},"id":"builder-d56cb76911cc48498eeafff907f498e0","component":{"name":"Text","options":{"text":"<span>Form submission error :( Please check your answers and try again</span>"}},"responsiveStyles":{"large":{"marginTop":"10px"}}}],"sendingMessage":[{"@type":"@builder.io/sdk:Element","@version":2,"id":"builder-f5911c847f20471082552dd99f133cd2","component":{"name":"Text","options":{"text":"<span>Sending...</span>"}},"responsiveStyles":{"large":{"marginTop":"10px"}}}]}},"children":[{"@type":"@builder.io/sdk:Element","@version":2,"id":"builder-d4048ab6d8be47bcbc0810dff7d66325","component":{"name":"Text","options":{"text":"<span>Enter your name</span>"}},"responsiveStyles":{"large":{"marginTop":"10px"}}},{"@type":"@builder.io/sdk:Element","@version":2,"id":"builder-26991c6df27f4e83ad855c4262b4017a","component":{"name":"Form:Input","options":{"name":"name","placeholder":"Jane Doe"}},"responsiveStyles":{"large":{"marginTop":"10px"}}},{"@type":"@builder.io/sdk:Element","@version":2,"id":"builder-b0c4436829a34b56a884533b042b3547","component":{"name":"Text","options":{"text":"<span>Enter your email</span>"}},"responsiveStyles":{"large":{"marginTop":"10px"}}},{"@type":"@builder.io/sdk:Element","@version":2,"id":"builder-e99df9b52f4245d497e9e1d5d9cf97ab","component":{"name":"Form:Input","options":{"name":"email","placeholder":"jane@doe.com"}},"responsiveStyles":{"large":{"marginTop":"10px"}}},{"@type":"@builder.io/sdk:Element","@version":2,"id":"builder-458359e22fc642458ee828eefcdb4977","component":{"name":"Form:SubmitButton","options":{"text":"Submit"}},"responsiveStyles":{"large":{"marginTop":"10px"}}}],"responsiveStyles":{"large":{"display":"flex","flexDirection":"column","alignItems":"stretch","position":"relative","marginTop":"15px","paddingBottom":"15px"}}}]}}
